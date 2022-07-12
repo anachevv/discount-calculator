@@ -6,7 +6,8 @@ Feel free to explore it.</p>
 <li>The application is based on Tkinter. Here is a link to the documentation: 
 <a href="https://docs.python.org/3/library/tkinter.html"><u>Click here</u></a></li>
 <li>I'm using currencies library to display the currency selected by the user in the 
-final result. Here is information about the library: <a href="https://pypi.org/project/currencies/"><u>Click here</u></a></li>
+final result. Here is information about the library: 
+<a href="https://pypi.org/project/currencies/"><u>Click here</u></a></li>
 
 <h2>How it looks like</h2>
 <img src="https://raw.githubusercontent.com/CodingPawn/discount-calculator/main/discount%20calculator.jpg">
@@ -20,3 +21,6 @@ final result. Here is information about the library: <a href="https://pypi.org/p
 <li>JPY</li>
 <br>
 <img src="https://raw.githubusercontent.com/CodingPawn/discount-calculator/main/currency_feature.jpg">
+
+<h2>Result</h2>
+<img src="https://raw.githubusercontent.com/CodingPawn/discount-calculator/main/result.jpg">
