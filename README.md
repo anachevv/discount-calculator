@@ -24,3 +24,11 @@ final result. Documentation of the library:
 
 <h2>Result</h2>
 <img src="https://raw.githubusercontent.com/CodingPawn/discount-calculator/main/result.jpg">
+
+<h2>Usage</h2>
+<p>In order to run the script without any issues, install these libraries:</p>
+
+```bash
+$ pip install tkinter currencies
+```
+<h3>Note! If you want to save the app icon, don't forget to change the iconbitmap directory.</h3>
