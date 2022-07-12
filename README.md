@@ -6,7 +6,7 @@ Feel free to explore it.</p>
 <li>The application is based on Tkinter. Here is a link to the documentation: 
 <a href="https://docs.python.org/3/library/tkinter.html"><u>Click here</u></a></li>
 <li>I'm using currencies library to display the currency selected by the user in the 
-final result. Here is information about the library: 
+final result. Here is the documentation: 
 <a href="https://pypi.org/project/currencies/"><u>Click here</u></a></li>
 
 <h2>How it looks like</h2>
