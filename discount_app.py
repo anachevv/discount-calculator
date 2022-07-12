@@ -31,30 +31,27 @@ class GUI(tk.Frame):
 
         # Create dropdown menu
         self.dropdown_menu = tk.OptionMenu(self, clicked, *options)
-        self.dropdown_menu.config(font=Font(family=('Arial', 12)))
-        self.dropdown_menu.pack()
+        self.dropdown_menu.config(font=Font(family=('Arial', 12)), width=15, anchor='center')
+        self.dropdown_menu.pack(fill='both')
 
         # Sum
-        self.sum_label = tk.Label(text=f"Sum", font=('Arial', 16), bg='cyan')
-        self.number_entry = tk.Entry()
+        self.sum_label = tk.Label(text=f"Sum", font=('Arial', 15), bg='cyan', anchor='center')
+        self.number_entry = tk.Entry(font=16)
+        self.sum_label.pack(padx=10, pady=10, fill='both')
+        self.number_entry.pack(padx=10)
 
         # Discount
-        self.discount_label = tk.Label(text="Discount (%)", font=('Arial', 16), bg='cyan')
-        self.discount_entry = tk.Entry()
+        self.discount_label = tk.Label(text="Discount (%)", font=('Arial', 15), bg='cyan', anchor='center')
+        self.discount_entry = tk.Entry(font=16)
+        self.discount_label.pack(padx=10, pady=10, fill='both')
+        self.discount_entry.pack(padx=10)
 
         # Button
         self.calculate_button = tk.Button(text="Total Sum", font=('Arial', 12), command=self.calculate_discount)
+        self.calculate_button.pack(padx=10, pady=10)
 
         # Output
         self.output = tk.Label(padx=10, bg='cyan')
-
-        # Place widgets
-
-        self.sum_label.pack(padx=10, pady=10)
-        self.number_entry.pack(padx=10)
-        self.discount_label.pack(padx=10, pady=10)
-        self.discount_entry.pack(padx=10)
-        self.calculate_button.pack(padx=10, pady=10)
         self.output.pack()
 
     # Calculations
@@ -83,7 +80,7 @@ class GUI(tk.Frame):
             else:
                 discount_sum = float(entry_percentage) / 100 * float(entry_sum)
                 final_price = float(entry_sum) - float(discount_sum)
-                self.output.config(text=currency_sign.get_money_format(f"{final_price:.2f}"), font=('Arial', 11), bg="green", fg="white")
+                self.output.config(text=currency_sign.get_money_format(f"{final_price:.2f}"), font=('Arial', 15), bg="green", fg="white")
         except (Exception, ValueError):
             self.output.config(text="CURRENCY NOT SELECTED!", bg="red", fg="black")
 
