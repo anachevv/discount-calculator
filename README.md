@@ -26,6 +26,7 @@ final result. Documentation of the library:
 <img src="https://raw.githubusercontent.com/CodingPawn/discount-calculator/main/result.jpg">
 
 <h2>Usage</h2>
+<h3>Installation</h3>
 <p>In order to run the script without any issues, install these libraries:</p>
 
 ```bash
