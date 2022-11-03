@@ -9,7 +9,7 @@ Feel free to explore it.</p>
 final result. Documentation of the library: 
 <a href="https://pypi.org/project/currencies/"><u>Click here</u></a></li>
 
-<h2>How it looks like</h2>
+<h2>How it looks</h2>
 <img src="https://raw.githubusercontent.com/CodingPawn/discount-calculator/main/discount%20calculator.jpg">
 <p>Currency button represents a dropdown menu including these options:</p>
 <li>BGN</li>
